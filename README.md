@@ -1,2 +1,2 @@
-# 85th_tfarPatch
-Adjusts "tf_isolatedAmount" for various mod vehicles
+# 85th PMC Mod
+Add various custom items and patches for the 85th PMC
