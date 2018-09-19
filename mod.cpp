@@ -1,0 +1,12 @@
+name = "85th Private Military Company";
+picture = "blah";
+actionName = "GitHub";
+action = "https://github.com/85th-PMC/85th";
+description = "Add various custom items and patches for the 85th PMC";
+logo = "blah";
+logoOver = "blah";
+tooltip = "85th PMC";
+tooltipOwned = "Owned By 85th PMC";
+overview = "Add various custom items and patches for the 85th PMC";
+author = "85th PMC, SnakeDoc, Jacob";
+overviewPicture = "blah";
