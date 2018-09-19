@@ -5,7 +5,15 @@ class CfgPatches
 		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[]={};
+		requiredAddons[]=
+		{
+			"rhsusf_c_mrzr",
+			"rhsusf_mrzr",
+			"rhsusf_c_melb",
+			"rhsusf_melb",
+			"rhsusf_c_markvsoc",
+			"rhsusf_markvsoc"
+		};
 		author="85th PMC";
 	};
 };
@@ -14,7 +22,6 @@ class CfgPatches
 class Car_F;
 class Offroad_01_base_F;
 class MRAP_01_base_F;
-class rhsusf_mrzr_base;
 
 //Jeep Wrangler
 class Offroad_02_base_F: Car_F
@@ -34,8 +41,8 @@ class RHS_UAZ_Base: Offroad_01_base_F
 	tf_isolatedAmount = 0.0;
 };
 
-//MRZR
-class rhsusf_mrzr4_d: rhsusf_mrzr_base
+//RHS MRZR
+class rhsusf_mrzr_base: MRAP_01_base_F
 {
 	tf_isolatedAmount = 0.0;
 };
@@ -43,7 +50,7 @@ class rhsusf_mrzr4_d: rhsusf_mrzr_base
 //Air
 class Helicopter_Base_H;
 
-//Little Bird
+//RHS Little Bird
 class RHS_MELB_base: Helicopter_Base_H
 {
 	tf_isolatedAmount = 0.0;
