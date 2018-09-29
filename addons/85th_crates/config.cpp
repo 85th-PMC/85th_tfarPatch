@@ -16,7 +16,7 @@ class cfgWeapons
 
 class CfgPatches
 {
-	class 85thcrates
+	class 85th_crates
 	{
 		units[]=
 		{
