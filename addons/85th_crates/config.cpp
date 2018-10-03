@@ -301,6 +301,10 @@ class CfgVehicles
 				name = "ACE_SpareBarrel";
 				count = 4;
 			};
+			class _xx_Land_CanisterFuel_F {
+				name = "Land_CanisterFuel_F";
+				count = 2;
+			};
 		};
 	};
 	class 85th_firstaidKit: 85th_dummyCrate
@@ -552,6 +556,10 @@ class CfgVehicles
 				name = "ACE_SpareBarrel";
 				count = 1;
 			};
+			class _xx_Land_CanisterFuel_F {
+				name = "Land_CanisterFuel_F";
+				count = 1;
+			};
 		};
 	};
 	class 85th_cellsuppliesnVehicle: 85th_dummyCrate
@@ -700,6 +708,10 @@ class CfgVehicles
 			class _xx_ACE_NVG_Wide {
 				name = "ACE_NVG_Wide";
 				count = 4;
+			};
+			class _xx_Land_CanisterFuel_F {
+				name = "Land_CanisterFuel_F";
+				count = 1;
 			};
 		};
 	};
